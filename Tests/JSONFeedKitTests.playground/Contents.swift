@@ -1,7 +1,7 @@
 //: Playground - noun: a place where people can play
 
 import Cocoa
-import JSONFeedParser
+import JSONFeedKit
 import PlaygroundSupport
 
 PlaygroundPage.current.needsIndefiniteExecution = true
