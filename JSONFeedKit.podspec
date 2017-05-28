@@ -7,19 +7,19 @@
 #
 
 Pod::Spec.new do |s|
-  s.name         = "JSONFeedParser"
+  s.name         = "JSONFeedKit"
   s.version      = "0.1.0"
-  s.summary      = "A JSON Feed API wrapper written in pure Swift."
-  s.description  = "A JSON Feed API wrapper, used to create model objects, written in pure Swift."
-  s.homepage     = "http://EXAMPLE/JSONFeedParser"
+  s.summary      = "A JSON Feed wrapper written in pure Swift."
+  s.description  = "A JSON Feed wrapper, used to create model objects, written in pure Swift."
+  s.homepage     = "https://github.com/roonieone/JSONFeedKit"
   s.license      = "MIT"
   s.author             = { "Mark Malstrom" => "malstrommark@gmail.com" }
-  s.social_media_url   = "http://twitter.com/Mark Malstrom"
+  s.social_media_url   = "http://twitter.com/markmalstrom"
   s.ios.deployment_target = "10.0"
   s.osx.deployment_target = "10.12"
   s.watchos.deployment_target = "3.0"
   s.tvos.deployment_target = "10.0"
-  s.source       = { :git => "http://EXAMPLE/JSONFeedParser.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/roonieone/JSONFeedKit.git", :tag => s.version }
   s.source_files  = "Sources"
-  s.dependency 'JSON-Swift'
+  s.dependency "JSON-Swift", "~> 0.1.3"
 end
