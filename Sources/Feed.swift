@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import JSON
+import SimpleJSONKit
 
 public struct Feed {
     /// The URL of the version of the format the feed uses

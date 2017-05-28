@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import JSON
+import SimpleJSONKit
 
 public struct Attachment {
     /// Specifies the location of the attachment.

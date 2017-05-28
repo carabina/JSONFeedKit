@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import JSON
+import SimpleJSONKit
 
 public struct Item {
     /// The unique ID for the item for the feed over time.

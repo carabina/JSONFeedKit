@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import JSON
+import SimpleJSONKit
 
 public struct Author {
     /// The author’s name.

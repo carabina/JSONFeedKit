@@ -5,6 +5,6 @@ import PackageDescription
 let package = Package(
     name: "JSONFeedKit",
     dependencies: [
-        .Package(url: "https://github.com/roonieone/JSON.git", "0.1.3"),
+        .Package(url: "https://github.com/roonieone/SimpleJSONKit.git", "0.1.3"),
         ]
 )
