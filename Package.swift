@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "JSONFeedParser",
+    name: "JSONFeedKit",
     dependencies: [
         .Package(url: "https://github.com/roonieone/JSON.git", "0.1.3"),
         ]
