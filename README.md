@@ -7,7 +7,7 @@ A JSON Feed wrapper written in pure Swift. For more information on JSON Feeds, s
 Usage examples can be found in `Tests/JSONFeedKitTests.playground`. A quick summary here:
 
 ```swift
-import JSONFeedParser
+import JSONFeedKit
 
 let requestURL = URL(string: "https://daringfireball.net/feeds/json")!
 let urlRequest = URLRequest(url: requestURL)
