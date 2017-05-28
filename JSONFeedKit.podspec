@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = "10.0"
   s.source       = { :git => "https://github.com/roonieone/JSONFeedKit.git", :tag => s.version }
   s.source_files  = "Sources"
-  s.dependency "JSON-Swift", "~> 0.1.3"
+  s.dependency "JSON-Swift"
 end
