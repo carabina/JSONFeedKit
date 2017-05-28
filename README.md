@@ -26,8 +26,9 @@ You may want to write a parser for extracting a JSON Feed URL from an HTML page.
 
 ## Installation
 
-#### CocoaPods
-You can use [CocoaPods](http://cocoapods.org/) to install `JSONFeedKit` by adding it to your `Podfile`:
+~~**CocoaPods**~~
+
+~~You can use [CocoaPods](http://cocoapods.org/) to install `JSONFeedKit` by adding it to your `Podfile`:~~
 
 ```ruby
 pod 'JSONFeedKit'
@@ -47,4 +48,4 @@ let package = Package(
 )
 ```
 
-Then use `swift package fetch` to download the `JSON` dependency and `swift package generate-xcodeproj` to create an Xcode Project. For more information on how to use Swift Package Manager with iOS, [see this gist](https://gist.github.com/nathanborror/4ecb16bcb1ae0bd11e7eed043c6cd8bd).
+Then use `swift package fetch` to download the `JSONFeedKit` dependency and `swift package generate-xcodeproj` to create an Xcode Project. For more information on how to use Swift Package Manager with iOS, [see this gist](https://gist.github.com/nathanborror/4ecb16bcb1ae0bd11e7eed043c6cd8bd).
