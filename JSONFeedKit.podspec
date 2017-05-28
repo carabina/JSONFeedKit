@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.summary      = "A JSON Feed wrapper written in pure Swift."
   s.description  = "A JSON Feed wrapper, used to create model objects, written in pure Swift."
   s.homepage     = "https://github.com/roonieone/JSONFeedKit"
-  s.license      = "MIT"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Mark Malstrom" => "malstrommark@gmail.com" }
   s.social_media_url   = "http://twitter.com/markmalstrom"
   s.ios.deployment_target = "10.0"
