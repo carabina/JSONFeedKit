@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   url                     = "https://github.com/roonieone/JSONFeedKit"
   source_url              = "#{url}.git"
   s.name         = "JSONFeedKit"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "A JSON Feed wrapper written in pure Swift."
   s.homepage     = url
   s.license      = { type: "MIT", file: "LICENSE" }
